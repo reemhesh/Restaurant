@@ -1,0 +1,407 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,400;0,500;0,600;0,800;0,900;1,100;1,300;1,500;1,700;1,800;1,900&family=Cabin:ital,wght@0,400;0,600;0,700;1,400;1,500;1,600;1,700&family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&family=Yellowtail&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.854);
+    width:100%;
+    height:10%;
+    position:fixed;
+   top:0;
+}
+nav .log{
+    margin-top:1vh;
+}
+.container{
+width:90%;
+margin: 0 auto;
+}
+.d-flex{
+
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.container ul li{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight:bold;
+    
+}
+
+ul {
+ display: flex;
+ justify-content: space-between;
+
+}
+
+ul li{
+    color:white;
+    margin:1vw;
+}
+ul li a{
+    text-decoration:none;
+    color: white;
+}
+nav ul li a:hover{
+    color:rgb(239, 205, 17);
+}
+#Home{
+background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(imgs/slider/01.jpg);
+background-size:cover;
+margin-top: auto;
+padding:10%;
+}
+section{
+    color: aliceblue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    flex-direction: column;
+    margin-top:9%;
+}
+section h1{
+    letter-spacing :3pt;
+}
+
+body section .text{
+    margin-top: 3%;
+}
+
+#about{
+    margin:2.5%;
+}
+.about-title {
+  text-align: center;
+  color: #D1BC87;
+  vertical-align: text-bottom;
+}
+
+ .about-title ::after,.about-title ::before{
+    content: url('./imgs/header_decorator.png');
+    margin: 14px;
+ }
+ .about-details{
+    text-align: center;
+    font-family: "Cabin";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+    color: #777777;
+    margin-bottom: 60px; 
+    margin-top: 20px;
+ }
+ .history-left h2{
+    font-family: "Great Vibes", serif;
+    font-size: 62px;
+    color: #c0a756;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 500;
+ }
+ .history-left span{
+    color: #D1BC87;
+ }
+  .history-left p{
+    font-family: "Cabin", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #777777;
+    margin-bottom: 40px;
+    line-height: 32px;
+ }
+ #p1{
+    margin-bottom:30px;
+ }
+ .history-right img{
+ height:auto;
+ vertical-align: middle;
+ margin-left: 5%;
+ }
+ .ornament {
+    display: block;
+    width: 65px;
+    height: 35px;
+    background: url(./imgs/ornament.png);
+    background-repeat: no-repeat;
+    content: " ";
+    margin: 0 auto;
+}
+#History2 .history-right{
+    margin-right: 5%;
+}
+#History,#History2{
+    text-align: left;
+}
+
+.open-hours-title h2{
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+   font-size: 39px;
+    font-weight: 700;
+    line-height: 70px;
+    vertical-align: top;   
+    margin-top: 0;
+}
+.open-hours-title p{
+    color: #B29859;
+    font-family: "Yellowtail", serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+
+}
+.open-hours-title{
+    margin-top:2px;
+    margin-bottom: 10px;
+}
+#time-open .flex-center{
+    justify-content:center;
+}
+#open-hours{
+    background-image: url(./imgs/parallax/opening_hours.jpg);
+     height:70vh;
+     background-size:cover;
+     background-attachment: fixed;
+     
+}
+#title::before{
+    content: url(./imgs/timetable-decorator);
+}
+#title::after{
+    content: url(./imgs/timetable-decorator2);
+}
+
+#menu{
+   
+    height: 110vh;
+}
+ .time-open h4{
+    color: #B29859;
+    font-family: "Yellowtail", serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+ 
+}
+.time-open  h3{
+    font-family: "Oswald", sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 0px;
+}
+.restaurant-no{
+    margin-top: 40px;
+    font-family: "Oswald", sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+.menu-gradients h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: #887025;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+.menu-gradients {
+    color: #777777;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    height:auto;
+}
+.category-title{
+    text-transform: uppercase;
+    text-align: center;
+    color: #887025;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+.dish-title{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #0c0901;
+    margin-bottom: 5px;
+}
+.dish-details{
+    display: flex;
+    align-items:center;
+    width:250px;
+
+}
+.dish{
+    margin-bottom:10px 0;
+}
+.dish-details p{
+    color:#777777;
+    font-size:13px;
+    margin-bottom: 0;
+    margin-right: 25px;
+    margin-bottom: 13px;
+}
+.dish-details span{
+    font-size:13px;
+    font-style: italic;
+    color: #bfa760;
+    
+    margin-bottom: 13px;
+}
+.flex-margin{
+    margin:20px 0 ;
+}
+
+#menu{
+    margin-top:7%;
+    margin-bottom:0%;
+    background-image: url('./imgs/menu_left.jpg'),url('./imgs/menu_right.jpg');
+    background-repeat: no-repeat;
+    background-size:content;
+    background-position: top left, top right;
+}
+.menu-logo{
+    text-align: center;
+    margin-bottom:2%;
+}
+.button-part{
+    text-align: center;
+}
+
+.button{
+    background-color:white;
+    padding:20px 10px;
+    border: 2px solid #bfa760;
+    width: 260px;
+    height: 65px;
+    margin-bottom:2px;
+    margin-top: 5px;
+    font-size: 18px;
+    color:#bfa760;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.button a{
+    text-decoration:none;
+    color:#bfa760;
+    margin: 0 auto;
+    font-family: "Cabin", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.button:hover {background:#bfa760 ;}
+/*effect on a directly*/
+.button:hover > a {color:white}
+
+#gallery{
+    height:auto;
+    padding:15px;
+    background-color: rgb(0, 0, 0);
+    width:100%;
+}
+#img-center img{
+  height:100%;
+  vertical-align: middle;
+  margin-top: -8px;
+}
+.updated{
+    color:white;  
+}
+ .reservation-details h3{
+    text-transform: uppercase;
+    color: #444342;
+    text-align: center;
+    font-family: "Oswald",sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 15px 0px 15px 0px;
+ }
+ .reservation-details h4{
+    line-height: 0.5;
+    font-family: "Yellowtail";
+    font-size: 25px;
+    color: #141313;
+    text-align: center;
+    font-weight: 400;
+ }
+
+.container-update{
+    width:60%
+}
+
+.by-default{
+   text-decoration: underline;
+   text-decoration-thickness:2px;
+   text-decoration-color: #B29859;
+   text-underline-position: under}
+
+.links ul li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness:2px;
+    text-decoration-color: #B29859;
+    text-underline-position: under
+}
+.imgs{
+    margin-top:3%;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+.imgs img{
+    height:30%;
+    width:30%;
+}
+.imgs {
+    position: relative;
+}
+
+
+.container-updated2{
+    width:100%;
+    height:100%;
+   margin:0;
+
+}
+.reservation-details h4::before ,.reservation-details h4::after{
+  content:url('/imgs/button_line.png');
+}
+.reservation-details p{
+    font-family: "Cabin", sans-serif;
+    font-weight: 500;
+    color: #7d7a7a;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.reservation-phone{
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.img-contain{
+text-align: center;
+}
+#date{
+    width:600px;
+    height:50px;
+    margin-top:10px;
+}
